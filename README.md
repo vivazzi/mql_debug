@@ -133,8 +133,8 @@ int OnInit(){
     // second debug
     Debug d_2("debug_2.txt");
 
-    d(d_1, MathPow(4, 1));
-    dp(d_1, MathPow(4, 2));
+    d(d_2, MathPow(4, 1));
+    dp(d_2, MathPow(4, 2));
 }
 ```
 
@@ -144,6 +144,12 @@ To change path to result file, use `d_set_log_path(d_object, log_path)`.
 
 To clear result file, use `d_clear(d_object)`.
 
+## Synonyms
+
+Instead of usage `_d` you can use `_df` - they are equivalent. `_df` is added for common code style, if anybody wants to write so. 
+In most cases it is used the saving to file, so `_d` is used for brevity.
+
+For your custom debug objects there is appropriate `df`.
 
 ## Run test of Unit test
 
