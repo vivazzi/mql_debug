@@ -5,7 +5,7 @@ and code of call function like a string to file or print to MetaTrader: `Termina
 
 ## Installing
 
-Download repo and copy `mql_debug/Include/debug` folder to `<TERMINAL DIR>/MQL(4/5)/Include`
+Download repo and copy `mql_debug/Include/debug.mqh` folder to `<TERMINAL DIR>/MQL(4/5)/Include`
 
 ## Usage
 
@@ -151,7 +151,7 @@ In most cases it is used the saving to file, so `_d` is used for brevity.
 
 For your custom debug objects there is appropriate `df`.
 
-## Run test of Unit test
+## Run tests
 
 1. Copy `mql_debug/Experts/TestDebug.mq4` to `<TERMINAL DIR>/MQL(4/5)/Experts`
 2. Compile `TestDebug.mq4` and run `TestDebug.ex4` in terminal in a window of any trading pair.
